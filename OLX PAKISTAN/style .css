@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header{
+    padding:10px 70px;
+    padding-left: 80px;
+    background-color: #f7f8f8;
+    text-transform: uppercase;
+    font-size: medium;   
+}  
+.header-bottom{
+    padding: 20px;
+padding-left: 80px;
+
+display: inline-flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover{
+    color: blue;
+}
+
+.top-item{
+    padding: 20px;
+    display: inline-block;
+    padding-top: 2px;   
+    padding-bottom: 2px; 
+}
+
+.header-top header{
+    padding:10px;
+    display: inline-block;
+    box-shadow: 0 1px 2px #000;
+    
+}
+
+
+.input{
+width: 20%;
+height: 40px;
+font-size: medium;
+text-align: center;
+}
+
+.inputfield{
+width: 50%;
+height: 40px;
+font-size: medium;
+}
+.fa.fa-search{
+    background-color: black;
+    color: #f7f8f8;
+    padding: 6.5px;
+    border-radius: 3px;
+    padding-top: 7px;
+}
+.log{
+    padding:10px;
+    padding-left: 10px;
+} 
+.sell.button{
+    width:13%;
+    height:50px;
+    margin-left: 50px;
+    border-radius:40px;
+    background-color: white;
+    border:8px solid rgb(82, 194, 238);
+    border-left: 8px solid rgb(248, 248, 36);
+    border-top:8px solid blue ;
+    border-bottom: 8px solid blue;
+    color: black;
+}
+li{
+    display: inline-block;
+    padding-right: 10px;
+    font-size: medium;
+}
+li:hover{
+    color: #46aca9;
+}
+.txt-bold{
+    font-weight: bold;
+}
+.slideshow-container{
+    padding:10px ;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.pic{
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 30px;
+    
+
+}
+
+.clasifieds-cards-area{
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 10px;
+}
+.in{
+    padding-left: 950px;
+}
+
+.cat-card{
+    max-width: 100px;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 20px;
+    cursor: pointer;
+    padding-right: 10px;
+    padding-left: 0%;
+display: inline grid;
+}
+
+.cat-card  img {
+    width: 80px;
+}
+.main-card{
+    display: flex;
+
+
+}
+.ad-card {
+   
+    display: inline-block;
+    border: 1px solid #bfbfbf;
+      max-width: 200px;
+      margin: 20px 20px;
+      border-radius: 10px;
+      overflow: hidden;
+
+    }
+.ad-card img{
+    max-width: 100%;
+    min-width: 100px;
+    
+}
+.pricing{
+  font-weight: bold;
+    padding: 5px;
+  }  
+  .ad-dese{
+    padding: 10px;
+}
+.location{
+    padding: 10px;
+    padding-top: 10;
+    font-size: medium;
+}
+
+.fa-fa-heart{
+   margin-left: 10px;
+   padding-left: 60px;
+  
+}
+.small-txt{
+    font-size: 10px;
+    color: #6c6c6c;
+    padding-left: 10px;
+
+}
+.clasifieds{
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 20px;
+}
+.footer-bottom{
+    padding: 50px;
+    }
+    .footer{
+        padding: 20px;
+        display: flex;
+        background-color: #f7f8f8;
+    } 
+    .pho{
+        width: 30%;
+        height: 150px;
+    }  
+    .type{
+        padding: 20px;
+        align-items: center;
+        background-color: #f7f8f8;
+        height: 50px;
+    }
+    .word{
+        font-size: 20px;
+        color: black;
+    
+    } 
+    .lin{
+        padding: 20px;
+        color: black;
+        font-size: medium;
+    }
+    .writ {
+        padding-top: 40px;
+        width: 40%;
+    }
+    .down{
+        width: 30%;
+        height: 50px;
+    
+    } 
+    .up{
+        width: 30%;
+        height: 50px;
+        
+    } 
+    .of{
+        width: 30%;
+        height: 50px;
+    }  
+    .dot{
+      font-size: large;
+      font-weight: normal;
+    }
+    
+    .last{
+        box-shadow: 0 1px 1px #2220204f;
+        background-color: #d0d8d873;
+        display: flex;
+        margin-right: 10px;
+        padding: 10px;
+        gap: 50px;
+        
+    }  
+    .bullets{
+        list-style-type: none;
+        display: list-item;
+        font-size: small;
+        padding: 10px;
+        font-weight: normal;
+        
+    
+    }
+    .a:hover{
+        color: black;
+    }
+    .icon{
+        display: inline-flex ;
+        margin-top: 10px;
+        gap: 10px;
+    
+    }
+    .footer-credit{
+       text-align: end;
+       color: #fff;
+    }
+    .footer-credit-bg{ 
+        padding: 20px; 
+        padding-right: 80px;
+        background-color: #002f34;
+     }
+     .footer-credit{
+        color: #fff;
+     }
+     @media only screen and  (max-width: 1400px);{ 
+        .header{
+            display: grid;
+            grid-template-columns: auto auto auto auto;   
+        }    
+     }
+     
+    
